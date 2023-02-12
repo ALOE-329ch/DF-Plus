@@ -1,0 +1,17 @@
+title: ドナフレア+
+originalAuthor: ALOE_329ch
+description: ドナフレアを海外版KH2.5の性能に変更します
+assets:
+- name: msg/jp/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: mod1.yml
+      language: jp
+- name: limit/fm/donald2.bar
+  method: copy
+  source:
+  - name: mod2.bar
